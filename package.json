@@ -1,0 +1,22 @@
+{
+  "name": "tp2_seguridad",
+  "version": "1.0.0",
+  "description": "Project of CI/CD for university",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaquinFF/TP2_Seguridad.git"
+  },
+  "author": "JoaquinFF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaquinFF/TP2_Seguridad/issues"
+  },
+  "homepage": "https://github.com/JoaquinFF/TP2_Seguridad#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
