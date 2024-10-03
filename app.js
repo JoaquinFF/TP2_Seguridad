@@ -80,7 +80,7 @@ app.get('/hombre-pajaro', (req, res) => {
   });
 });
 
-const apiKey = secrets.OPENWEATHERMAP_API_KEY;
+const apiKey = process.env.OPENWEATHERMAP_API_KEY;
 
 app.get('/clima', (req, res) => {
   const url = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}`;
