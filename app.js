@@ -83,7 +83,7 @@ app.get('/hombre-pajaro', (req, res) => {
 const apiKey = process.env.OPENWEATHERMAP_API_KEY;
 
 app.get('/clima', (req, res) => {
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=Mendoza&appid=${apiKey}`;
 
   https.get(url, (apiRes) => {
     let data = '';
