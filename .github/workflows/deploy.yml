@@ -26,8 +26,5 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-      - name: Deploy application
-        run: npm run deploy
         env:
           OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
