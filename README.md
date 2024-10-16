@@ -18,7 +18,7 @@ Luego, se deben instalar las dependencias
 ```bash
 npm install
 ```
-(Opcional) Agregar la API de OpenWeatherMap en una variable de entorno en un .env en la raiz del proyecto. Esto servirá para consultar la información del clima en Mendoza
+(Opcional) Agregar la API key de OpenWeatherMap en una variable de entorno en un .env en la raiz del proyecto. Esto servirá para consultar la información del clima en Mendoza
 
 ```bash
 OPENWEATHERMAP_API_KEY=TuApiKey
